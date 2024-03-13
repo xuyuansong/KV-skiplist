@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/xuyuansong/KV存储引擎/./src/Node.h
+cstdlib
+-
+cstring
+-
+
+/root/xuyuansong/KV存储引擎/./src/SkipList.h
+Node.h
+/root/xuyuansong/KV存储引擎/./src/Node.h
+iostream
+-
+cmath
+-
+mutex
+-
+
+/root/xuyuansong/KV存储引擎/main.cpp
+iostream
+-
+cstdlib
+-
+unistd.h
+-
+./src/SkipList.h
+/root/xuyuansong/KV存储引擎/./src/SkipList.h
+
